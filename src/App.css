@@ -1,0 +1,54 @@
+body{
+  background-color: darkorange;
+  width: 1330px;
+}
+.wrapper{
+  height: 850px;
+  margin-left: 120px;
+}
+.home{
+width: 1100px;
+height: 250px;
+border: 2px solid ;
+background-color: darkgray;
+border-radius: 4%;
+}
+h1{
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+}
+li{
+  font-size: 30px;
+}
+img{
+  display: block;
+  position: relative;
+  transition: .4s;
+}
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.force{
+  top: -760px;
+  left: 870px;
+}
+.jordan{
+  top: -760px;
+  left: 800px;
+}
+.rebook{
+  top: -755px;
+  left: 870px;
+}
+.script{
+  font-size: 14px;
+  width: 800px;
+}
+button{
+  width: 120px;
+  height: 23px;
+  background-color: rgb(60, 71, 73);
+  color: aliceblue;
+}
