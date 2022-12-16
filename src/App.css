@@ -1,28 +1,55 @@
 body{
-  background-color: darkorange;
-  width: 1330px;
+  background-color: rgba(45, 86, 124, 0.575);
+  width: 1320px;
+  height: 740px;
+}
+#root{
+  height: 740px;
 }
 .wrapper{
-  height: 850px;
-  margin-left: 120px;
+  height: 740px;
+  margin-left: 50px;
+}
+.menu{
+  width: 1320px;
+  height: 120px;
 }
 .home{
-width: 1100px;
-height: 250px;
+width: 400px;
+height: 280px;
 border: 2px solid ;
-background-color: darkgray;
+background-color: rgba(79, 8, 233, 0.189);
 border-radius: 4%;
 }
 h1{
-  text-align: center;
-  color: blue;
+  color: rgb(58, 53, 53);
   font-size: 50px;
 }
 li{
   font-size: 30px;
 }
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.nav_bar{
+  display: flex;
+  margin-left: 170px;
+  margin-top: -65px;
+}
+a{
+  margin-left: 90px;
+  color: brown;
+}
+input{
+  margin-left: 150px;
+  border-radius: 10px;
+  margin-top: -10px;
+  width: 300px;
+  height: 30px;
+}
 img{
-  display: block;
   position: relative;
   transition: .4s;
 }
@@ -31,24 +58,34 @@ img:hover {
   cursor: pointer;
 }
 .force{
-  top: -760px;
-  left: 870px;
+  top: -596px;
+  left: 190px;
 }
 .jordan{
-  top: -760px;
-  left: 800px;
+  top: -598px;
+  left: 413px;
 }
 .rebook{
-  top: -755px;
-  left: 870px;
+  top: -598px;
+  left: 635px;
 }
 .script{
-  font-size: 14px;
-  width: 800px;
+  font-size: 13px;
+  width: 200px;
 }
-button{
-  width: 120px;
-  height: 23px;
-  background-color: rgb(60, 71, 73);
-  color: aliceblue;
+.versache{
+  right: 420px;
+  top: -283px;
+}
+.nike_air_plus{
+  top: -297px;
+  right: 200px;
+}
+.nike_air_max{
+  top: -283px;
+  left: 35px;
+}
+#button{
+  color: red;
+  border-radius: 10px;
 }
